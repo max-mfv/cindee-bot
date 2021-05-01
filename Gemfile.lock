@@ -108,6 +108,7 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     multi_xml (0.6.0)
+    mysql2 (0.5.3)
     nio4r (2.5.7)
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
@@ -219,6 +220,7 @@ DEPENDENCIES
   httparty
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  mysql2 (>= 0.4.4)
   nokogiri
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
