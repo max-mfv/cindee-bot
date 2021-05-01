@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'nokogiri'
 gem 'httparty'
 gem 'telegram-bot'
+gem 'pg'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
