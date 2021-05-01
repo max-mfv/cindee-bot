@@ -56,7 +56,12 @@ class Fetching
         Telegram.bots[:chat].send_message(chat_id: chat_id, text: "🚨🚨🚨 #{author} bị rớt top rồi !!!!!!!!")
       end
 
-      "❗️#{index + 1} [#{vote}] - #{author} [#{title}]"
+      if author == 'Ha Trinh'
+        "⭐️#{index + 1} [#{vote}] - #{author} [#{title}]"
+      else
+        "❗️#{index + 1} [#{vote}] - #{author} [#{title}]"
+      end
+
     end
 
 
