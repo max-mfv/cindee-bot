@@ -25,6 +25,8 @@ gem 'nokogiri'
 gem 'httparty'
 gem 'telegram-bot'
 gem 'mysql2', '>= 0.4.4'
+gem 'sidekiq'
+gem 'sidekiq-scheduler'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

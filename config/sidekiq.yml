@@ -1,0 +1,10 @@
+---
+:verbose: false
+:concurrency: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
+:timeout: 30
+:queues:
+  - default
+:schedule:
+  ping_check_scheduler:
+    every: '2m'
+    class: PingCheckScheduler
