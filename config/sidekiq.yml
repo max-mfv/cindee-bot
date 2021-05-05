@@ -6,5 +6,8 @@
   - default
 :schedule:
   ping_check_scheduler:
-    every: '2m'
+    every: '5m'
     class: PingCheckScheduler
+  ping_report_scheduler:
+    every: '30m'
+    class: PingReportScheduler
