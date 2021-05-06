@@ -29,12 +29,13 @@ class Fetching
       vote = root.search('div.bx_vote').children[0].content.gsub(/\s+/, '')
       author = root.search('span.tx_tacgia').first.content
       title = link.search('h5').first.content
-
+      uid = link.search('div.info_tindi').search('h5 a').attribute('href').value.split('/').last
       {
         index: index + 1,
         vote: vote,
         author: author,
         title: title,
+        uid: uid,
         idol: author == IDOL
       }
     end
